@@ -1,0 +1,31 @@
+'scopeName': 'source.event'
+'name': 'Event'
+'fileTypes': [
+  'event'
+  'sb-event'
+]
+'firstLineMatch': ''
+'patterns': [
+  {
+    'match': '^\\s*(-)\\s*(\\d+).*$'
+    'captures':
+      '1':
+        'name': 'punctuation.definition.entry.event'
+      '2':
+        'name': 'entity.name.function.event'
+  }
+  {
+    'match': '^\\s*(\/\/).+$'
+    'name': 'comment.line.event'
+  }
+  {
+    'match': '^\\s*(\\d+\\s)?\\s*(\\w[^\\s\/]*)\\s+(.+)$'
+    'captures':
+      '1':
+        'name': 'constant.numeric.event'
+      '2':
+        'name': 'variable.other.event'
+      '3':
+        'name': 'string.action.event'
+  }
+]
