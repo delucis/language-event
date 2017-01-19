@@ -1,6 +1,6 @@
 {
   "name": "language-event",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Event language support in Atom",
   "repository": {
     "type": "git",
@@ -13,6 +13,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
